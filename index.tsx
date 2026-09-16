@@ -64,7 +64,6 @@ function LocalMuteButton({ userId }: { userId: string; }) {
         <div
             role="button"
             aria-label={muted ? "Unmute locally" : "Mute locally"}
-            title={muted ? "Unmute (local only)" : "Mute (local only)"}
             style={{
                 display: "inline-flex",
                 alignItems: "center",
