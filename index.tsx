@@ -94,7 +94,7 @@ const LocalMuteButtonSafe = ErrorBoundary.wrap(LocalMuteButton, { noop: true });
 export default definePlugin({
     name: "QuickLocalMute",
     description: "One-click local-mute icon next to each user connected to a voice channel.",
-    authors: [{ name: "mar", id: 1531845646842073301n }],
+    authors: [{ name: "flood235", id: 1531845646842073301n }],
 
     patches: [
         {
